@@ -1,0 +1,92 @@
+header {
+    background: lightgrey;
+}
+
+header::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+}
+
+.logo {
+    float: left;
+    color: red;
+}
+
+.container-meilleur-film {
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.image-meilleur-film {
+    float: right
+}
+
+nav {
+    float: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+}
+
+.title-section {
+    text-align: center
+}
+
+.modal-container {
+    pointer-events: none;
+    opacity: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+
+}
+
+.modal-container.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.modal {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px 50px;
+    width: 600px;
+    max-width: 100%;
+    text-align: center;
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
