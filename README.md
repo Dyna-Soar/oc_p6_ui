@@ -12,7 +12,7 @@ Le projet est une interface utilisateur qui affiche une page contant les meilleu
 
 
 
-# Exécution
+## Exécution
 
 1. Retourner à la racine du projet avec la commande `$ cd ..`
 2. Rendez-vous dans le dossier "front-end" contenant l'HTML, le CSS et Javascript, en tapant la commande `$ cd front-end`
